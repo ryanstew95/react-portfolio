@@ -26,7 +26,21 @@
   font-family: var(--font-roboto);
   background: linear-gradient(
     90deg,
-    rgba(255, 255, 255, 1) 70%,
+    rgb(23, 158, 189) 70%,
+    rgba(255, 255, 255, 0) 120%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.ryan {
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 33px;
+  font-family: var(--font-roboto);
+  background: linear-gradient(
+    90deg,
+    rgb(226, 135, 60) 70%,
     rgba(255, 255, 255, 0) 120%
   );
   -webkit-text-fill-color: transparent;
@@ -102,7 +116,7 @@
 
 @media screen and (max-width: 830px) {
   .container {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .content {
