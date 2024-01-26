@@ -1,7 +1,71 @@
+/* Resume.module.css */
+
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 79px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .title {
   color: var(--color-text);
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 14px;
+}
+
+
+
+.resume {
+  width: 45%; /* Adjust the width as needed */
+  border-radius: 10px; /* Add border-radius for rounded corners */
+  display: block;
+  margin: 0 auto;
+
+}
+.box {
+  background: #19376d; /* Blue background color */
+  border-radius: 10px;
+  padding: 20px; /* Adjust the padding as needed */
+  margin-top: 20px; /* Adjust the margin-top as needed */
+  text-align: center; /* Center the content inside the container */
+}
+.ryan a {
+  color: var(--color-text);
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+/* Additional styling for responsiveness */
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+
+  .resume {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+
+  .box {
+    width: 100%;
+  }
 }

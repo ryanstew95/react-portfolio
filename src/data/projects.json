@@ -1,26 +1,26 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "title": "QuizJS",
+    "imageSrc": "projects/home.png",
+    "description": "QuizJS is a series of questions that defy conventional thinking and logic. Test your wit against a series of fun, unexpected, and absurd questions.",
+    "skills": ["React", "Express", "Node", "CSS"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/ryanstew95/final_project"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "title": "TinyApp",
+    "imageSrc": "projects/mainPage.png",
+    "description": "TinyApp is a full stack web application built with Node and Express that allows users to shorten long URLs (à la bit.ly).",
+    "skills": ["EJS", "Express", "Node", "CSS"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/ryanstew95/tinyapp-"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "title": "Snack-Bar",
+    "imageSrc": "projects/s_nav.png",
+    "description": "Food order app where customers can place orders and employees can view and handle the orders.",
+    "skills": ["EJS", "Express", "Node", "Sass"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/ryanstew95/Food_order_app_midterms"
   }
 ]

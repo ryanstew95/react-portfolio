@@ -16,6 +16,7 @@
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
+  padding-right: 850px;
 }
 
 .menu {
@@ -26,12 +27,12 @@
   display: flex;
   gap: 47px;
   list-style: none;
+  padding-right: 40px;
 }
 
 .menuItems a {
   font-size: 25px;
   color: var(--color-text);
-  text-decoration: none;
 }
 
 .menuBtn {
@@ -83,4 +84,5 @@
 
 .logo {
   width: 50px;
+  padding-left: 10px;
 }
