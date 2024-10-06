@@ -4,7 +4,7 @@
     "imageSrc": "projects/home.png",
     "description": "QuizJS is a series of questions that defy conventional thinking and logic. Test your wit against a series of fun, unexpected, and absurd questions.",
     "skills": ["React", "Express", "Node", "CSS"],
-    "demo": "https://www.example.com",
+    "demo": "https://gorgeous-donut-33d88d.netlify.app/",
     "source": "https://github.com/ryanstew95/final_project"
   },
   {
@@ -12,15 +12,15 @@
     "imageSrc": "projects/mainPage.png",
     "description": "TinyApp is a full stack web application built with Node and Express that allows users to shorten long URLs (à la bit.ly).",
     "skills": ["EJS", "Express", "Node", "CSS"],
-    "demo": "https://www.example.com",
+    "demo": "https://mytinyapp-hasg.onrender.com/register",
     "source": "https://github.com/ryanstew95/tinyapp-"
   },
   {
-    "title": "Snack-Bar",
-    "imageSrc": "projects/s_nav.png",
-    "description": "Food order app where customers can place orders and employees can view and handle the orders.",
-    "skills": ["EJS", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://github.com/ryanstew95/Food_order_app_midterms"
+    "title": "Handcrafted-Harbour",
+    "imageSrc": "projects/harbour.png",
+    "description": "Handcrafted-Harbour is an online store that is a full stack web application built with Vite, React and Typescript that allows users to purchase items from a store.",
+    "skills": ["React", "Vite", "TypeScript", "CSS"],
+    "demo": "https://online-store-chi-two.vercel.app/",
+    "source": "https://github.com/ryanstew95/online-store"
   }
 ]

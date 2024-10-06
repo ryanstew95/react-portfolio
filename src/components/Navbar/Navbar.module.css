@@ -5,18 +5,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
+  padding-top: 2vw; /* Use vw units for padding */
   z-index: 2;
-  
   background-color: #081e3c;
 }
 
 .title {
-  font-size: 30px;
+  font-size: 3vw; /* Use vw units for font size */
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
-  padding-right: 850px;
+  padding-right: 10vw; /* Use vw units for padding */
 }
 
 .menu {
@@ -25,13 +24,13 @@
 
 .menuItems {
   display: flex;
-  gap: 47px;
+  gap: 2vw; /* Use vw units for gap */
   list-style: none;
-  padding-right: 40px;
+  padding-right: 4vw; /* Use vw units for padding */
 }
 
 .menuItems a {
-  font-size: 25px;
+  font-size: 2.5vw; /* Use vw units for font size */
   color: var(--color-text);
 }
 
@@ -48,10 +47,10 @@
   .menu {
     position: absolute;
     right: 0;
-    margin-right: 10%;
+    margin-right: 2vw; /* Use vw units for margin */
     flex-direction: column;
     align-items: flex-end;
-    gap: 11px;
+    gap: 1vw; /* Use vw units for gap */
     z-index: 3;
   }
 
@@ -64,16 +63,12 @@
     display: none;
     flex-direction: column;
     align-items: center;
-    gap: 13px;
-    border-radius: 10px;
+    gap: 1.3vw; /* Use vw units for gap */
+    border-radius: 1vw; /* Use vw units for border-radius */
     background: rgb(25, 55, 109);
-    background: linear-gradient(
-      0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
-    );
-    padding: 24px 33px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    background: linear-gradient(0deg, rgba(25, 55, 109, 0.2) 0%, rgba(25, 55, 109, 1) 100%);
+    padding: 2.4vw 3.3vw; /* Use vw units for padding */
+    box-shadow: 0 0 0.4vw 0 rgba(0, 0, 0, 0.25); /* Use vw units for box-shadow */
   }
 
   .menuOpen {
@@ -83,6 +78,7 @@
 }
 
 .logo {
-  width: 50px;
-  padding-left: 10px;
+  width: 5vw; /* Use vw units for width */
+  padding-left: 1vw; /* Use vw units for padding */
 }
+

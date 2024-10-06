@@ -1,15 +1,4 @@
 [
-  {
-    "role": "Video Editor",
-    "organisation": "OutWit Adventures",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
-    "experiences": [
-      "Created and edited videos",
-      "Made 3d assets for mobile games for Outwit Adventures"
-    ],
-    "imageSrc": "history/outwit.png"
-  },
 
   {
     "role": "Graphic Designer",
@@ -26,5 +15,15 @@
     "endDate": "Present",
     "experiences": ["Worked on company website", "Applied principles of UI/UX design to create visually appealing and intuitive user interfaces."],
     "imageSrc": "history/yb.jpg"
+  },
+  {
+    "role": "Web Developer",
+    "organisation": "MooseHead",
+    "startDate": "Jun, 2024",
+    "endDate": "Sept, 2024",
+    "experiences": [
+      "Created Goal management app for the company"
+    ],
+    "imageSrc": "history/download.png"
   }
 ]
